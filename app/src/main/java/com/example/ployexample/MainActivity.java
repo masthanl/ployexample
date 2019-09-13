@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //crc initial values
+    //crc initial values1
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public String ComposeRead(String input) {
 
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    ///Hex to ascii value
+    ///Hex to ascii value1
 
     public String hexToASCII(String hexValue) {
         StringBuilder sb = new StringBuilder();
