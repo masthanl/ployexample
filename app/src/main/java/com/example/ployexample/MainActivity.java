@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    ///Hex to ascii
+    ///Hex to ascii value
 
     public String hexToASCII(String hexValue) {
         StringBuilder sb = new StringBuilder();
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         return mAsciiValue;
     }
 
-    ///ascii to Hex
+    ///ascii to Hex value
 
     public static String asciiToHex(String asciiValue)
     {
