@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //crc initial values
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public String ComposeRead(String input) {
 
