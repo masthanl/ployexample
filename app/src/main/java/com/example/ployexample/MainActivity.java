@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //crc initial values1
+    //crc initial values2
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public String ComposeRead(String input) {
 
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    ///Hex to ascii value1
+    ///Hex to ascii value2
 
     public String hexToASCII(String hexValue) {
         StringBuilder sb = new StringBuilder();
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         return mAsciiValue;
     }
 
-    ///ascii to Hex value
+    ///ascii to Hex values2
 
     public static String asciiToHex(String asciiValue)
     {
@@ -117,6 +117,7 @@ public class MainActivity extends AppCompatActivity {
         return parts.toArray(new String[0]);
     }
 
+    //LittleEndian values2
     public static int toLittleEndian(final String hex) {
         int ret = 0;
         String hexLittleEndian = "";
